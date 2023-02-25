@@ -3,14 +3,12 @@ import itens from './data/itens.js'
 import itensTipo from './data/itensTipo.js'
 import imagens from './data/imagens.js'
 import cors from 'cors'
-import dadosteste from './data/dadosteste.js' 
-import axios from 'axios'
+//import dadosteste from './data/dadosteste.js' 
 
 const PORT = process.env.PORT || 5050
 const HOST = '0.0.0.0';
 
-
-
+ 
 const app = express();
 app.use(cors())
 
